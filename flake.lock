@@ -1,0 +1,161 @@
+{
+  "nodes": {
+    "flake-parts": {
+      "inputs": {
+        "nixpkgs-lib": "nixpkgs-lib"
+      },
+      "locked": {
+        "lastModified": 1678379998,
+        "narHash": "sha256-TZdfNqftHhDuIFwBcN9MUThx5sQXCTeZk9je5byPKRw=",
+        "owner": "hercules-ci",
+        "repo": "flake-parts",
+        "rev": "c13d60b89adea3dc20704c045ec4d50dd964d447",
+        "type": "github"
+      },
+      "original": {
+        "owner": "hercules-ci",
+        "repo": "flake-parts",
+        "type": "github"
+      }
+    },
+    "flake-utils": {
+      "locked": {
+        "lastModified": 1678901627,
+        "narHash": "sha256-U02riOqrKKzwjsxc/400XnElV+UtPUQWpANPlyazjH0=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "93a2b84fc4b70d9e089d029deacc3583435c2ed6",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "nimble": {
+      "inputs": {
+        "nixpkgs": "nixpkgs"
+      },
+      "locked": {
+        "lastModified": 1679016900,
+        "narHash": "sha256-r3FZDce76464m/EyfP2HkkLRBoeABiKIfHUP1k+SiQ8=",
+        "owner": "nix-community",
+        "repo": "flake-nimble",
+        "rev": "3767fed6ac3035306ff27d68ed731250cbe7e4aa",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-community",
+        "repo": "flake-nimble",
+        "type": "github"
+      }
+    },
+    "nimble2nix": {
+      "inputs": {
+        "flake-utils": "flake-utils",
+        "nixpkgs": "nixpkgs_2"
+      },
+      "locked": {
+        "lastModified": 1657218605,
+        "narHash": "sha256-e9h5Yiv7fPycKsCHgxHcOScSF4CMZ+iB6bdwC44BFt0=",
+        "owner": "bandithedoge",
+        "repo": "nimble2nix",
+        "rev": "6a6c4da2e2b3cc3b643744b76ecd8bb08f6be3a3",
+        "type": "github"
+      },
+      "original": {
+        "owner": "bandithedoge",
+        "repo": "nimble2nix",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1641555862,
+        "narHash": "sha256-AJK1Q5djPXs/ba3K6gHsVAer9yDPVLic78ZIDsFSkHU=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "d1acd89e0116ff88eba80541027429fc922612e9",
+        "type": "github"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "nixpkgs-lib": {
+      "locked": {
+        "dir": "lib",
+        "lastModified": 1678375444,
+        "narHash": "sha256-XIgHfGvjFvZQ8hrkfocanCDxMefc/77rXeHvYdzBMc8=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "130fa0baaa2b93ec45523fdcde942f6844ee9f6e",
+        "type": "github"
+      },
+      "original": {
+        "dir": "lib",
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs_2": {
+      "locked": {
+        "lastModified": 1678875422,
+        "narHash": "sha256-T3o6NcQPwXjxJMn2shz86Chch4ljXgZn746c2caGxd8=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "126f49a01de5b7e35a43fd43f891ecf6d3a51459",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixpkgs-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs_3": {
+      "locked": {
+        "lastModified": 1675273418,
+        "narHash": "sha256-tpYc4TEGvDzh9uRf44QemyQ4TpVuUbxb07b2P99XDbM=",
+        "path": "/nix/store/4ysck2ylkv75mmhgabrnj03b4aghkydw-source",
+        "rev": "4d7c2644dbac9cf8282c0afe68fca8f0f3e7b2db",
+        "type": "path"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "nvidia-vgpu": {
+      "locked": {
+        "lastModified": 1629956048,
+        "narHash": "sha256-mhKZWRn6swGwwfdb/bRrDB6GkA8V5sMhlOS60Jm/dM0=",
+        "owner": "danielfullmer",
+        "repo": "nixos-nvidia-vgpu",
+        "rev": "a4be77969dc2a8acbe3a4882ba5f0324cca138b6",
+        "type": "github"
+      },
+      "original": {
+        "owner": "danielfullmer",
+        "repo": "nixos-nvidia-vgpu",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "flake-parts": "flake-parts",
+        "nimble": "nimble",
+        "nimble2nix": "nimble2nix",
+        "nixpkgs": "nixpkgs_3",
+        "nvidia-vgpu": "nvidia-vgpu"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
