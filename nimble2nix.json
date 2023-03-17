@@ -1,0 +1,57 @@
+{
+  "yaml-1.1.0": {
+    "url": "https://github.com/flyx/NimYAML",
+    "rev": "ab3ff9fad45fa7e20d749d0a03a7567225f5dd4a",
+    "date": "2023-03-10T22:56:27+01:00",
+    "path": "/nix/store/ckgdqnaczicygglbbclizkx4nv8vyk0g-NimYAML-ab3ff9f",
+    "sha256": "0r5ck2mc28mnskrkjwinbg3dqwya0d8zq8b7h1m0473h2qrwiqa0",
+    "fetchLFS": false,
+    "fetchSubmodules": true,
+    "deepClone": false,
+    "leaveDotGit": false
+  },
+  "terminaltables-0.1.1": {
+    "url": "https://github.com/xmonader/nim-terminaltables",
+    "rev": "37981f5d403fb55688e00d24ab9b1d56e252f52b",
+    "date": "2020-05-22T01:57:39+02:00",
+    "path": "/nix/store/q5lx9hb48bxxq115fr0y8a0dlzkw19nk-nim-terminaltables",
+    "sha256": "0g571zgcv227csgs4kar4l2580h3z86sidb3xs04giqsq3zhfidz",
+    "fetchLFS": false,
+    "fetchSubmodules": true,
+    "deepClone": false,
+    "leaveDotGit": false
+  },
+  "psutil-0.6.0": {
+    "url": "https://github.com/juancarlospaco/psutil-nim",
+    "rev": "dc8a0881f1b8626df1026fdecd25fe60e4c67749",
+    "date": "2021-02-06T09:01:48-05:00",
+    "path": "/nix/store/3ngg60zq2ipnq9iigw9h0kh8v806d1qk-psutil-nim",
+    "sha256": "0waz7y5wjh5yg8hqdvg9g6dbqyfz7kxj1m2jimhaf5wwpg0m390v",
+    "fetchLFS": false,
+    "fetchSubmodules": true,
+    "deepClone": false,
+    "leaveDotGit": false
+  },
+  "isaac-0.1.3": {
+    "url": "https://github.com/pragmagic/isaac/",
+    "rev": "45a5cbbd54ff59ba3ed94242620c818b9aad1b5b",
+    "date": "2017-11-16T12:24:39+07:00",
+    "path": "/nix/store/9nwg829frnlin4dmipw9q54icfz4pqh9-isaac",
+    "sha256": "0hy3fizfzyrrcjal764bz8kjzxh1xy61vljfx148svxqh3z4csyw",
+    "fetchLFS": false,
+    "fetchSubmodules": true,
+    "deepClone": false,
+    "leaveDotGit": false
+  },
+  "uuids-0.1.11": {
+    "url": "https://github.com/pragmagic/uuids/",
+    "rev": "8cb8720b567c6bcb261bd1c0f7491bdb5209ad06",
+    "date": "2021-01-15T17:07:13+07:00",
+    "path": "/nix/store/cpydrynvv097qmldsn3wvp44n8ihmqx8-uuids-8cb8720",
+    "sha256": "0j6fdfxsrffr988xxxf345khmvqys68r41hzn5zh94b5kn73sl2c",
+    "fetchLFS": false,
+    "fetchSubmodules": true,
+    "deepClone": false,
+    "leaveDotGit": false
+  }
+}
